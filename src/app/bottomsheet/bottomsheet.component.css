@@ -1,0 +1,20 @@
+.buttonalign {
+    margin: auto;
+    width: 20%;
+    border: 3px ;
+    padding: 5px;
+    position: relative;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .department{
+    padding: 2.5px;
+    width: 200px;
+  }
+  .center{
+    padding-left: 180px;
+  }

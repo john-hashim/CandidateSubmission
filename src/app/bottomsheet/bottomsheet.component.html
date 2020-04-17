@@ -1,0 +1,38 @@
+<h2>
+    Enter the details
+</h2>
+ <flash-messages></flash-messages>
+<form (submit)="onFormSubmit()">
+    <div class="form-group"> 
+        <label for="name">Name</label>
+        <input type="text" class="form-control" [(ngModel)]=name name=name>
+    </div><br>
+    <div class="form-group"> 
+        <label for="employeeid">EmployeeID</label>
+        <input type="text" class="form-control" [(ngModel)]=employeeid name=employeeid required >
+    </div><br>
+    <div class="form-group"> 
+        <label for="department">department</label><br>
+        <select id="departments"  [(ngModel)]=department name=department class="department">
+            <option value="development">Development</option>
+            <option value="Testing">Testing</option>
+            <option value="HR">HR</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Support">Support</option>
+        </select>
+    </div><br>
+    <div class="form-group"> 
+        <label for="Email">Email</label>
+        <input type="text" class="form-control" [(ngModel)]=email name=email>
+    </div><br>
+    <div class="form-group"> 
+        <label for="doj">Date Of Joining</label><br>
+        <input class="department" type="date" class="form-control" [(ngModel)]=doj name=doj>
+    </div><br><br>
+    <div class="center">
+        <input class="buttonalign" type="submit"  value="submit">
+    </div>
+
+    
+</form>
+<button mat-stroked-button color="primary" class="buttonalign" (click)="reset()">reset</button>

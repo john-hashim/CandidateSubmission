@@ -1,0 +1,25 @@
+.center {
+    margin: auto;
+    width: 20%;
+    border: 3px ;
+    padding: 10px;
+  }
+  table {
+    width: 100%;
+    cursor:pointer;
+  }
+  .example-container {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+    width: 1200px;
+  }
+  h1{
+    padding-top: 50px;
+    padding-left: 500px;
+  }
+  /* .container{
+    padding-left: 500px;
+  } */
+
+  
